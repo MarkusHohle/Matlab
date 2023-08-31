@@ -5,7 +5,7 @@ Set of Matlab codes from various lectures
 
 # Bayesian Statistics
 
-- bayesian_bino.m (Bayesian Parameter Estimation of a Bionomial Distribution)
+- bayesian_bino.m (Bayesian Parameter Estimation of a Binomial Distribution)
 - bayesian_poiss.m (Bayesian Parameter Estimation of a Poisson Distribution)
 
 - trapezoidal_rule_nd_integral.m (function for N-dimensional numerical integration. Author: Mohammed S. Al-Rawi, IEETA, University of Aveiro Portugal)
@@ -14,7 +14,8 @@ Set of Matlab codes from various lectures
 
 - mean_var_analysis_example.m (performs Model Selection on 'LinaData.mat': WT vs treated mice, returns odds ratio and compares result to standat t-test. Data with permission from Dr. Lina Wendeler)
 
- - VarBayesExample.m (estimating mean and variance and calculates corresponding probability density distributions using Variational Bayes, same data set as above)
-    
+- VarBayesExample.m (estimating mean and variance and calculates corresponding probability density distributions using Variational Bayes, calls same data set as above)
 
-  
+- jumpGraph.m & jumpGraphRandom.m (illustrates temporal changes of states on a graph network with fixed rates and randomly generated rates which get multiplied with the adjacency matrix; calls axesArea.m, prh.m and wgPlot.m. Last three functions have been created by Michael Wu waftingpetal@yahoo.com)
+
+

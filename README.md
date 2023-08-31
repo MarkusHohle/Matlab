@@ -19,3 +19,8 @@ Set of Matlab codes from various lectures
 - jumpGraph.m & jumpGraphRandom.m (illustrates temporal changes of states on a graph network with fixed rates and randomly generated rates which get multiplied with the adjacency matrix; calls axesArea.m, prh.m and wgPlot.m. Last three functions have been created by Michael Wu waftingpetal@yahoo.com)
 
 
+# Biophysics - ODEs for non-linear systems
+
+
+
+# Biophysics - Stochastic Processes

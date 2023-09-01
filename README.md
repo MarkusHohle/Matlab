@@ -29,20 +29,11 @@ Set of Matlab codes from various lectures
 
 - biased_random_walk.m (simulates trajectories of N E-coli following a food concentration gradient)
 
+- diffusion_reaction.m, diffusion_reactionII.m, diffusion_reactionIII.m (different examples for pattern formation like fur, scales etc)
 
+- twoDdiffusion.m (generic example)
 
-
-
-
-
-
-
-    'diffusion_reaction.m        '
-    'diffusion_reactionII.m      '
-    'diffusion_reactionIII.m     '
-    'diffusion_reactionII_stud.m '
-    'twoDdiffusion.m             '
-    'twoDdiffusion_smoluchouski.m'
+- twoDdiffusion_smoluchouski.m (diffusion with drift i. e. Smoluchouski equation)
 
 
 

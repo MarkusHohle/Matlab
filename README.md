@@ -21,6 +21,28 @@ Set of Matlab codes from various lectures
 
 # Biophysics - ODEs for non-linear systems
 
+- poiss_stepper.m (simulates poissonian stepper with a for loop)
+  
+- poiss_stepper_fast.m (simulates poissonian stepper with matrix multiplication)
+
+- poiss_stepper_manyTimes.m (simulates N poissonian stepper in order to illustrate the law of large numbers)    
+
+    'example_gene_expression_gillespie.m'
+    'firstReactionMethod.m              '
+    'gillespieI.m                       '
+    'gillespieII.m                      '
+    'gillespieIII.m                     '
+    'gillespieIIb.m                     '
+    'gillespieIV.m                      '
+    'glycolysis.m                       '
+    'glycolysis_2.m                     '
+    'phage.m                            '
+    'plotpowerspec.m                    '
+     'solve_glycolysis.m                 '
+    'solve_glycolysis_2.m               '
+    'solve_phage.m                      '
+    'thattai_ode.m                      '
+
 
 
 # Biophysics - Stochastic Processes

@@ -24,3 +24,25 @@ Set of Matlab codes from various lectures
 
 
 # Biophysics - Stochastic Processes
+
+- random_walk.m  (simple illustration of a random walk)
+
+- biased_random_walk.m (simulates trajectories of N E-coli following a food concentration gradient)
+
+
+
+
+
+
+
+
+
+    'diffusion_reaction.m        '
+    'diffusion_reactionII.m      '
+    'diffusion_reactionIII.m     '
+    'diffusion_reactionII_stud.m '
+    'twoDdiffusion.m             '
+    'twoDdiffusion_smoluchouski.m'
+
+
+

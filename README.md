@@ -25,23 +25,25 @@ Set of Matlab codes from various lectures
   
 - poiss_stepper_fast.m (simulates poissonian stepper with matrix multiplication)
 
-- poiss_stepper_manyTimes.m (simulates N poissonian stepper in order to illustrate the law of large numbers)    
+- poiss_stepper_manyTimes.m (simulates N poissonian stepper in order to illustrate the law of large numbers)
 
-    'example_gene_expression_gillespie.m'
-    'firstReactionMethod.m              '
-    'gillespieI.m                       '
-    'gillespieII.m                      '
-    'gillespieIII.m                     '
-    'gillespieIIb.m                     '
-    'gillespieIV.m                      '
-    'glycolysis.m                       '
-    'glycolysis_2.m                     '
-    'phage.m                            '
-    'plotpowerspec.m                    '
-     'solve_glycolysis.m                 '
-    'solve_glycolysis_2.m               '
-    'solve_phage.m                      '
-    'thattai_ode.m                      '
+- random_machine.m (simulates the inevitable increase of entropy as a consequence being the most likely macrostate with N dice          getting rolled M times)
+
+- random_machine_Boltzmann.m (same as above, but with the constrain energy = const  --> Boltzman distribution emerges, see Lagrangian   Multipliers)
+
+- glycolysis.m (ODEs for simplyfied glycolysis reaction), solve_glycolysis.m (solves corresponding ODS and plots result, i. e. fixed    points etc, calls plotpowerspec.m )
+
+- glycolysis_2.m, solve_glycolysis_2.m (same as above, but reaction rates a and b can be provided as input arguments)
+
+- plotpowerspec.m (performs FFT and plots frequency power spectrum)
+
+- phage.m, solve_phage.m (simulates immune reaction/bacteria growth as response of phage therapy, creates plots, see the work from      DOI: 10.1016/j.jtbi.2017.06.037)
+
+- gillespieI.m - gillespieIV.m (simulates different systems like predator - prey, glycolysis etc as stochastic process using            Gillespie algorithm)
+
+- example_gene_expression_gillespie.m (simulates gene expression, see  as stochastic process, author: nezar@mit.edu)
+-
+- , firstReactionMethod.m, thattai_ode.m
 
 
 
@@ -51,7 +53,7 @@ Set of Matlab codes from various lectures
 
 - biased_random_walk.m (simulates trajectories of N E-coli following a food concentration gradient)
 
-- diffusion_reaction.m, diffusion_reactionII.m, diffusion_reactionIII.m (different examples for pattern formation like fur, scales etc)
+- diffusion_reaction.m, diffusion_reactionII.m, diffusion_reactionIII.m (different examples for pattern formation like fur, scales      etc)
 
 - twoDdiffusion.m (generic example)
 

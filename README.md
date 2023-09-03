@@ -1,7 +1,7 @@
 # Matlab
 Pattern formation, diffusion reaction, Bayesian 
 
-Set of Matlab codes from various lectures
+Set of Matlab codes from various lectures. For mathematical background and details: see Lecture Notes.pdf
 
 # Bayesian Statistics
 
